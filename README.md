@@ -33,6 +33,7 @@ Preferred flow:
 
 - [agents-radar](https://github.com/Gavriel-lab/agents-radar): daily AI ecosystem digest from multiple sources, published with GitHub Actions.
 - [cloud-janitor](https://github.com/Gavriel-lab/cloud-janitor): cloud maintenance and cleanup automation exploration.
+- [public audit samples](./AUDITS.md): examples of repo onboarding, build, lint, and docs audit output.
 
 ## Working Style
 
