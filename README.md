@@ -31,6 +31,9 @@ Preferred flow:
 
 ## Current Examples
 
+- [Hyraze/collective-ai-tools PR #222](https://github.com/Hyraze/collective-ai-tools/pull/222): owner-approved and merged cross-platform prebuild fix.
+- [Clawland skills PR #20](https://github.com/Clawland-AI/clawland-skills/pull/20): aquaculture monitoring skill package with examples and a local validator.
+- [Clawland skills PR #26](https://github.com/Clawland-AI/clawland-skills/pull/26): cold-chain compliance skill package with report templates and validation.
 - [agents-radar](https://github.com/Gavriel-lab/agents-radar): daily AI ecosystem digest from multiple sources, published with GitHub Actions.
 - [cloud-janitor](https://github.com/Gavriel-lab/cloud-janitor): cloud maintenance and cleanup automation exploration.
 - [public audit samples](./AUDITS.md): examples of repo onboarding, build, lint, and docs audit output.

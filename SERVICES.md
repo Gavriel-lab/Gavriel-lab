@@ -2,6 +2,12 @@
 
 This page is a short menu for maintainers, founders, and open-source project owners who need a focused engineering pass rather than a large engagement.
 
+## Recent Proof
+
+- [Hyraze/collective-ai-tools PR #222](https://github.com/Hyraze/collective-ai-tools/pull/222): owner-approved and merged fix for a Windows prebuild failure.
+- [Clawland skills PR #20](https://github.com/Clawland-AI/clawland-skills/pull/20): reviewable aquaculture monitoring skill with sample readings, report template, and validator.
+- [Clawland skills PR #26](https://github.com/Clawland-AI/clawland-skills/pull/26): reviewable cold-chain compliance skill with report template, examples, and validator.
+
 ## Repo Onboarding Audit
 
 Price range: USD 80-120
