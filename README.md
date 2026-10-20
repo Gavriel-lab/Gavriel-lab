@@ -1,44 +1,34 @@
 # Gavriel Lab
 
-Focused open-source and small-scope product engineering work.
+Local-first AI tools, multi-agent workflows, and portable memory.
 
-## What I Work On
+本地优先的 AI 工具与协作实验。这里分享可复现的工程、清楚的架构和接入说明。
 
-- Frontend UI polish for React, TypeScript, and design-system based apps
-- Documentation fixes, onboarding guides, README cleanup, and example projects
-- Small test coverage, Storybook examples, and reproducible bug reports
-- MCP, AI-tooling, and developer-workflow prototypes
-- Clear pull requests with concise implementation notes and a test plan
+## Start here · 从这里开始
 
-## Paid Micro-Scopes
+| Project | What it does | Get started |
+| --- | --- | --- |
+| **[Luma Harness](https://github.com/Gavriel-lab/luma-harness)** | Desktop and mobile clients for a configurable multi-agent work harness. Dispatch, scoped execution, review, and delivery back to the originating conversation. | [Downloads](https://github.com/Gavriel-lab/luma-harness/releases/latest) · [AI setup](https://github.com/Gavriel-lab/luma-harness/blob/codex/public-release/docs/AI_SETUP.md) · [Architecture](https://github.com/Gavriel-lab/luma-harness/blob/codex/public-release/docs/ARCHITECTURE.md) |
+| **[Everthread](https://github.com/Gavriel-lab/everthread)** | Portable memory architecture for AI companions, with capture, review, bounded recall, and migration between applications. | [Overview and quickstart](https://github.com/Gavriel-lab/everthread#readme) |
 
-I am open to small, fixed-scope paid tasks and bounties when the acceptance criteria are clear.
+Luma 提供普通基础界面，外观包单独下载；成员、CLI/API、账号和可选记忆接口由使用者配置。Everthread 是独立项目，不是 Luma 的必需依赖。
 
-Typical scopes:
+## Projects and contributions · 项目与贡献
 
-- Repo onboarding audit: USD 80-120
-- README or quickstart cleanup with verified commands: USD 80-150
-- Frontend UI triage and polish pass: USD 120-200
-- Storybook/component example for an existing component: USD 150-250
-- Narrow bug reproduction plus minimal fix PR: quoted after inspection
+[Browse the repository guide →](https://github.com/Gavriel-lab/Gavriel-lab/blob/main/PROJECTS.md)
 
-Preferred flow:
+The guide separates independent projects from upstream forks and links each fork to its original project. Forks retain their upstream authorship; contribution status is stated separately.
 
-1. Confirm the target issue, repo, and acceptance criteria.
-2. Share a short implementation plan before opening a PR.
-3. Keep the PR focused, with screenshots or command output where relevant.
-4. Avoid unrelated refactors, dependency churn, and speculative rewrites.
+Selected contributions:
 
-## Current Examples
+- [collective-ai-tools #222](https://github.com/hanishrao/collective-ai-tools/pull/222) — cross-platform prebuild README copy fix; **merged**.
+- [clawland-skills #20](https://github.com/Clawland-AI/clawland-skills/pull/20) — aquaculture monitoring skill; **open PR**.
+- [clawland-skills #26](https://github.com/Clawland-AI/clawland-skills/pull/26) — cold-chain compliance skill; **open PR**.
 
-- [Hyraze/collective-ai-tools PR #222](https://github.com/Hyraze/collective-ai-tools/pull/222): owner-approved and merged cross-platform prebuild fix.
-- [Clawland skills PR #20](https://github.com/Clawland-AI/clawland-skills/pull/20): aquaculture monitoring skill package with examples and a local validator.
-- [Clawland skills PR #26](https://github.com/Clawland-AI/clawland-skills/pull/26): cold-chain compliance skill package with report templates and validation.
-- [agents-radar](https://github.com/Gavriel-lab/agents-radar): daily AI ecosystem digest from multiple sources, published with GitHub Actions.
-- [cloud-janitor](https://github.com/Gavriel-lab/cloud-janitor): cloud maintenance and cleanup automation exploration.
-- [public audit samples](./AUDITS.md): examples of repo onboarding, build, lint, and docs audit output.
+Contribution status checked on 2026-10-20. Follow each PR for its current status.
 
-## Working Style
+## Engineering notes · 工程说明
 
-I prefer narrow issues with reproducible acceptance criteria. When I pick up an issue, I keep the patch minimal, explain the change clearly, and include the verification steps needed for review.
+Small scopes, explicit permissions, reproducible checks, and reviewable changes.
 
+[Public audit examples](https://github.com/Gavriel-lab/Gavriel-lab/blob/main/AUDITS.md) · [Engineering services](https://github.com/Gavriel-lab/Gavriel-lab/blob/main/SERVICES.md)
